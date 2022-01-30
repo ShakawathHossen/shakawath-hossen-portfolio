@@ -1,0 +1,55 @@
+/* font family  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400&display=swap');
+/* ff
+font-family: 'Poppins', sans-serif;
+font-family: 'Supermercado One', cursive;(h1)
+font-family: 'Dongle', sans-serif;(p)
+*/
+/* color 
+body: #232A34;
+button: #2CA46D;
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* common utilities  */
+h1{
+    color: #ffffff;
+    font-family: 'Supermercado One', cursive;
+}
+p{
+    color: #D7D6DA;
+    font-family: 'Dongle', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height:35px;
+}
+button{
+    outline: none;
+    border: none;
+    color: white;
+    background-color:#2CA46D ;
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-weight: bold;
+   
+}
+button:hover{
+    background-color: transparent;
+    border: 1px solid white;
+}
+/* common utilities  */
+body{
+    background-color: #000000;
+}
+/* about us start  */
+.about-image img{
+    border: 15px solid yellow;
+    border-radius: 5px;
+}
